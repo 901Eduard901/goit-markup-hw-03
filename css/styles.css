@@ -61,6 +61,8 @@ body {
 .header-container {
     display: flex;
     align-items: center;
+    padding-right: 15px;
+    padding-left: 15px; 
   }
 
 .sitenav-link {
@@ -79,14 +81,15 @@ body {
 
 .sitenav {
     display: flex;
+    margin-left: 93px;
     margin-top: 0;
     margin-bottom: 0;    
-    padding-right: 15px;
-    padding-left: 15px; 
+    padding-left: 0;
     list-style: none;   
   }  
 
-.sitenav-item {  
+.sitenav-item,
+.contacts-item {  
     padding-top: 32px;
     padding-bottom: 32px;
   }
@@ -113,11 +116,12 @@ body {
 
 .contacts {
     display: flex;
+    margin-left: auto;
     margin-top: 0;
     margin-bottom: 0;
     list-style: none;
-    padding-right: 15px;
-    padding-left: 15px;    
+    padding-right: 0;
+    padding-left: 0;    
   }  
 
 .contacts > .contacts-item:not(:last-child) {
@@ -133,7 +137,6 @@ body {
 .hero {
     text-align: center;
     background: var(--second-bgc);
-    
     min-height: 600px;
     display: flex;
     justify-content: center;
@@ -204,8 +207,7 @@ body {
 .feature-description {
     margin-top: 0;
     margin-bottom: 0;
-    line-height: 1.71;
-    
+    line-height: 1.71;    
   }
 
 .feature {
@@ -245,7 +247,6 @@ body {
 
 .list-item:not(:last-child) {
    margin-right: 30px;
-
   }
 
 /* Team и job  */ 
@@ -373,6 +374,7 @@ body {
 .menu-btn {
     color: var(--title-text-color);
     background-color:#F5F4FA;
+    border-color: transparent;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
