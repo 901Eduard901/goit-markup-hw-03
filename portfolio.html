@@ -20,7 +20,7 @@
   <!-- Шапка сайта -->
 
     <header class="page-header">
-     <div class="header-container">
+     <div class="container header-container">
           <a class="logo" href="./index.html"><span class="span">Web</span>Studio</a>
       <nav class="main-nav">
         <ul class="sitenav">
@@ -40,9 +40,10 @@
 
     <main>
 
-  <!-- Меню на странице портфолио -->
+  <!-- Меню на странице портфолио.  Наши проекты и описание -->
 
-      <section class="section">
+      <div class="container"> 
+        <section class="section">
           <h1 class="section-title visually-hidden">Меню на странице портфолио</h1>
           <ul class="menu-list">
             <li class="menu-item"><button class="menu-btn" type="button" >Все</button></li>
@@ -51,10 +52,6 @@
             <li class="menu-item"><button class="menu-btn" type="button" >Дизайн</button></li>
             <li class="menu-item"><button class="menu-btn" type="button" >Маркетинг</button></li>
           </ul>
-        
-  <!-- Наши проекты и описание -->
-        
-        <div class="container">  
           <ul class="project">
             <li class="project-item">
              <a class="project-link" href=""><img src="./images/portfolio/img1.jpg" alt="Технокряк" width="370"/>
@@ -135,19 +132,17 @@
   
  <!-- Футер -->
 
-      <footer class="footer">
-        <div class="footer-container">
-          <div class="logo-inverse">
-            <a class="footer-logo" href="./index.html"><span class="span">Web</span>Studio</a>
-          </div>
-         <address>
-          <ul class="contacts-footer">
-            <li class="contacts-footer-address">г. Киев, пр-т Леси Украинки, 26<br></li>
-            <li class="contacts-footer-item"><a href="mailto:info@example.com" class="contacts-footer-link">info@example.com</a><br></li>
-            <li class="contacts-footer-item"><a href="tel:+380991111111" class="contacts-footer-link">+38 099 111 11 11</a></li>
-          </ul>
-         </address>
-        </div>
-      </footer>
+    <footer class="footer">
+      <div class="container">       
+          <a class="footer-logo" href="./index.html"><span class="span">Web</span>Studio</a>        
+      <address>
+        <ul class="contacts-footer">
+          <li class="contacts-footer-address">г. Киев, пр-т Леси Украинки, 26<br></li>
+          <li class="contacts-footer-item"><a href="mailto:info@example.com" class="contacts-footer-link">info@example.com</a><br></li>
+          <li class="contacts-footer-item"><a href="tel:+380991111111" class="contacts-footer-link">+38 099 111 11 11</a></li>
+        </ul>
+      </address>
+      </div>
+    </footer>
   </body>
 </html>
